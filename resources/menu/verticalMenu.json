@@ -1,0 +1,370 @@
+{
+  "menu": [
+    {
+      "menuHeader": "POS-System"
+    },
+    {
+      "url": "delivery/pos-system/system",
+      "name": "POS-System",
+      "icon": "menu-icon tf-icons bx bx-envelope",
+      "slug": "delivery-pos-system-system"
+    },
+    {
+      "url": "delivery/pos-system/settings",
+      "name": "POS-Settings",
+      "icon": "menu-icon tf-icons bx bx-chat",
+      "slug": "delivery-pos-system-settings"
+    },
+    {
+      "url": "delivery/pos-system/cashier",
+      "name": "Add Cashier",
+      "icon": "menu-icon tf-icons bx bx-calendar",
+      "slug": "delivery-pos-system-cashier"
+    },
+    {
+      "menuHeader": "Food & Drinks"
+    },
+    {
+      "url": "delivery/FD/items",
+      "name": "Items",
+      "icon": "menu-icon tf-icons bx bx-cart-alt",
+      "slug": "delivery-fd-item"
+    },
+    {
+      "url": "delivery/FD/drinks",
+      "name": "Drinks",
+      "icon": "menu-icon tf-icons bx bx-book-open",
+      "slug": "delivery-fd-drinks"
+    },
+    {
+      "url": "delivery/FD/kiosk",
+      "name": "Kiosk",
+      "icon": "menu-icon tf-icons bx bx-car",
+      "slug": "delivery-fd-kiosk"
+    },
+    {
+      "menuHeader": "Orders"
+    },
+    {
+      "name": "All Order",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "delivery-Order_new"
+    },
+    {
+      "url": "delivery/orders/new",
+      "name": "New order",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "delivery-Order_new"
+    },
+    {
+      "url": "delivery/orders/pending",
+      "name": "At Way",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "delivery-Order_pendig"
+    },
+    {
+      "url": "delivery/orders/delivered",
+      "name": "Delivered",
+      "icon": "menu-icon tf-icons bx bx-dock-top",
+      "slug": "delivery-Order_delivered"
+    },
+    {
+      "url": "delivery/orders/returned",
+      "name": "Returned",
+      "icon": "menu-icon tf-icons bx bx-lock-open-alt",
+      "slug": "delivery-Order_returned"
+    },
+    {
+      "url": "delivery/orders/failed",
+      "name": "Failed to deliver",
+      "icon": "menu-icon tf-icons bx bx-lock-open-alt",
+      "slug": "delivery-Order_failed"
+    },
+    {
+      "url": "delivery/orders/canceled",
+      "name": "canceled",
+      "icon": "menu-icon tf-icons bx bx-spreadsheet",
+      "slug": "delivery-Order_canceled"
+    },
+    {
+      "menuHeader": "Deals"
+    },
+    {
+      "url": "delivery/deals/combos",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Combos",
+      "slug": "delivery-Deals_combos"
+    },
+    {
+      "url": "delivery/deals/daily",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Daily Deals",
+      "slug": "delivery-Deals_daily"
+    },
+    {
+      "url": "delivery/deals/food",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Food Deals",
+      "slug": "delivery-Deals_food"
+    },
+    {
+      "menuHeader": "Team"
+    },
+    {
+      "url": "delivery/team/driver",
+      "name": "Driver",
+      "icon": "menu-icon tf-icons bx bx-collection",
+      "slug": "delivery-Team_driver"
+    },
+    {
+      "url": "delivery/team/employee",
+      "name": "Employee",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "slug": "delivery-Team_employee"
+    },
+    {
+      "url": "delivery/team/customer",
+      "name": "Customer",
+      "icon": "menu-icon tf-icons bx bx-copy",
+      "slug": "delivery-Team_customer"
+    },
+    {
+      "menuHeader": "Finance"
+    },
+    {
+      "url": "delivery/finance/invoice",
+      "name": "Invoice",
+      "icon": "menu-icon tf-icons bx bx-crown",
+      "slug": "delivery-Finance_invoice"
+    },
+    {
+      "url": "delivery/finance/income",
+      "name": "Income",
+      "icon": "menu-icon tf-icons bx bx-crown",
+      "slug": "delivery-Finance_income"
+    },
+    {
+      "url": "delivery/finance/method",
+      "name": "Payment Method",
+      "icon": "menu-icon tf-icons bx bx-crown",
+      "slug": "delivery-Finance_method"
+    },
+    {
+      "menuHeader": "Extras"
+    },
+    {
+      "url": "delivery/extras/driver",
+      "name": "Driver App",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "delivery-Extra_driver"
+    },
+    {
+      "url": "delivery/extras/ceo",
+      "name": "CEO APP",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "delivery-Extra_ceo"
+    },
+    {
+      "url": "delivery/extras/qrcode",
+      "name": "Table QR-Code",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "delivery-Extra_qrcode"
+    },
+    {
+      "menuHeader": "Settings"
+    },
+    {
+      "url": "delivery/settings/delivery_area",
+      "name": "Delivery Area",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "delivery-Settings_delivery_area"
+    },
+    {
+      "url": "delivery/settings/working_time",
+      "name": "Working Time",
+      "icon": "menu-icon tf-icons bx bx-carousel",
+      "slug": "delivery-Settings_working_time"
+    },
+    {
+      "url": "delivery/settings/qr_code",
+      "icon": "menu-icon tf-icons bx bx-list-check",
+      "name": "QR-Code",
+      "slug": "delivery-Settings_qrcode"
+    },
+    {
+      "url": "delivery/settings/shop_details",
+      "icon": "menu-icon tf-icons bx bx-table",
+      "name": "Shop-Details",
+      "slug": "delivery-Settings_shop_detail"
+    },
+    {
+      "icon": "menu-icon tf-icons bx bx-table",
+      "name": "Shop-Details",
+      "slug": "delivery-Settings_shop_detail"
+    }
+  ],
+  "submenu": [
+    {
+      "menuHeader": "POS-System"
+    },
+    {
+      "url": "resturant/pos-system/system",
+      "name": "POS-System",
+      "icon": "menu-icon tf-icons bx bx-envelope",
+      "slug": "resturant-pos-system-system"
+    },
+    {
+      "url": "resturant/pos-system/settings",
+      "name": "POS-Settings",
+      "icon": "menu-icon tf-icons bx bx-chat",
+      "slug": "resturant-pos-system-setting"
+    },
+    {
+      "url": "resturant/pos-system/cashier",
+      "name": "Add Cashier",
+      "icon": "menu-icon tf-icons bx bx-calendar",
+      "slug": "resturant-pos-system-cashier"
+    },
+    {
+      "menuHeader": "Food & Drinks"
+    },
+    {
+      "url": "resturant/FD/items",
+      "name": "Items",
+      "icon": "menu-icon tf-icons bx bx-cart-alt",
+      "slug": "resturant-Items"
+    },
+    {
+      "url": "resturant/FD/drinks",
+      "name": "Drinks",
+      "icon": "menu-icon tf-icons bx bx-book-open",
+      "slug": "resturant-Drinks"
+    },
+    {
+      "url": "resturant/FD/card",
+      "name": "Ala Card",
+      "icon": "menu-icon tf-icons bx bx-car",
+      "slug": "resturant-Ala Card"
+    },
+    {
+      "menuHeader": "Reservations"
+    },
+    {
+      "url": "resturant/reservation/mine",
+      "name": "My Reservations",
+      "icon": "menu-icon tf-icons bx bx-food-menu",
+      "slug": "resturant-My Reservations"
+    },
+    {
+      "url": "resturant/reservation/plus",
+      "name": "My Reservation Plus",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "resturant-My Reservation Plus"
+    },
+    {
+      "url": "resturant/reservation/settings",
+      "name": "Reservation Settings",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "resturant-Reservation Settings"
+    },
+    {
+      "menuHeader": "Deals"
+    },
+    {
+      "url": "resturant/deals/daily_offer",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Daily Offers",
+      "slug": "resturant-Daily Offers"
+    },
+    {
+      "url": "resturant/deals/all_eat",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "All u can eat",
+      "slug": "resturant-All u can eat"
+    },
+    {
+      "menuHeader": "Team"
+    },
+    {
+      "url": "resturant/team/waiter",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Waiter",
+      "slug": "resturant-Waiter"
+    },
+    {
+      "url": "resturant/team/employee",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Employee",
+      "slug": "resturant-Employee"
+    },
+    {
+      "url": "resturant/team/customer",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Customer",
+      "slug": "resturant-Customer"
+    },
+    {
+      "menuHeader": "Finance"
+    },
+    {
+      "url": "resturant/finance/invoice",
+      "name": "Invoice",
+      "icon": "menu-icon tf-icons bx bx-crown",
+      "slug": "resturant-Invoice"
+    },
+    {
+      "url": "resturant/finance/income",
+      "name": "Income",
+      "icon": "menu-icon tf-icons bx bx-crown",
+      "slug": "resturant-Income"
+    },
+    {
+      "url": "resturant/finance/method",
+      "name": "Payment Method",
+      "icon": "menu-icon tf-icons bx bx-crown",
+      "slug": "resturant-Payment Method"
+    },
+    {
+      "menuHeader": "Extras"
+    },
+    {
+      "url": "resturant/extras/waiter",
+      "name": "Waiter App",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "resturant-Waiter App"
+    },
+    {
+      "url": "resturant/extras/ceo",
+      "name": "CEO APP",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "resturant-CEO APP"
+    },
+    {
+      "url": "resturant/extras/qrcode",
+      "name": "Table QR-Code",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "resturant-Table QR-Code"
+    },
+    {
+      "menuHeader": "Settings"
+    },
+    {
+      "url": "resturant/settings/working_time",
+      "name": "Working Time",
+      "icon": "menu-icon tf-icons bx bx-carousel",
+      "slug": "resturant-Working Time"
+    },
+    {
+      "url": "resturant/settings/qrcode",
+      "icon": "menu-icon tf-icons bx bx-list-check",
+      "name": "QR-Code",
+      "slug": "resturant-QR-Code"
+    },
+    {
+      "url": "resturant/settings/shop_details",
+      "icon": "menu-icon tf-icons bx bx-table",
+      "name": "Shop-Details",
+      "slug": "resturant-Shop-Details "
+    }
+  ]
+}

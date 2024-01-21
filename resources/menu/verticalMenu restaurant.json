@@ -1,0 +1,171 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard"
+    },
+    {
+      "menuHeader": "POS-System"
+    },
+    {
+      "url": "app/email",
+      "name": "POS-System",
+      "icon": "menu-icon tf-icons bx bx-envelope",
+      "slug": "POS-System"
+    },
+    {
+      "url": "app/chat",
+      "name": "POS-Settings",
+      "icon": "menu-icon tf-icons bx bx-chat",
+      "slug": "POS-Settings"
+    },
+    {
+      "url": "app/calendar",
+      "name": "Add Cashier",
+      "icon": "menu-icon tf-icons bx bx-calendar",
+      "slug": "Add Cashier"
+    },
+    {
+      "menuHeader": "Food & Drinks"
+    },
+    {
+      "url": "app/email",
+      "name": "Items",
+      "icon": "menu-icon tf-icons bx bx-cart-alt",
+      "slug": "Items"
+    },
+    {
+      "url": "app/email",
+      "name": "Drinks",
+      "icon": "menu-icon tf-icons bx bx-book-open",
+      "slug": "Drinks"
+    },
+    {
+      "url": "app/email",
+      "name": "Ala Card",
+      "icon": "menu-icon tf-icons bx bx-car",
+      "slug": "Ala Card"
+    },
+    {
+      "menuHeader": "Reservations"
+    },
+    {
+      "url": "app/email",
+      "name": "My Reservations",
+      "icon": "menu-icon tf-icons bx bx-food-menu",
+      "slug": "My Reservations"
+    },
+    {
+      "url": "app/email",
+      "name": "My Reservation Plus",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "My Reservation Plus"
+    },
+    {
+      "url": "app/email",
+      "name": "Reservation Settings",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "Reservation Settings"
+    },
+    {
+      "menuHeader": "Deals"
+    },
+    {
+      "url": "modal-examples",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Daily Offers",
+      "slug": "Daily Offers"
+    },
+    {
+      "url": "modal-examples",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "All u can eat",
+      "slug": "All u can eat"
+    },
+    {
+      "menuHeader": "Team"
+    },
+    {
+      "url": "modal-examples",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Waiter",
+      "slug": "Waiter"
+    },
+    {
+      "url": "modal-examples",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Employee",
+      "slug": "Employee"
+    },
+    {
+      "url": "modal-examples",
+      "icon": "menu-icon tf-icons bx bx-window-open",
+      "name": "Customer",
+      "slug": "Customer"
+    },
+    {
+      "menuHeader": "Finance"
+    },
+    {
+      "url": "app/email",
+      "name": "Invoice",
+      "icon": "menu-icon tf-icons bx bx-crown",
+      "slug": "Invoice"
+    },
+    {
+      "url": "app/email",
+      "name": "Income",
+      "icon": "menu-icon tf-icons bx bx-crown",
+      "slug": "Income"
+    },
+    {
+      "url": "app/email",
+      "name": "Payment Methode",
+      "icon": "menu-icon tf-icons bx bx-crown",
+      "slug": "Payment Methode"
+    },
+    {
+      "menuHeader": "Extras"
+    },
+    {
+      "url": "app/email",
+      "name": "Waiter App",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "Waiter App"
+    },
+    {
+      "url": "app/email",
+      "name": "CEO APP",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "CEO APP"
+    },
+    {
+      "url": "app/email",
+      "name": "Table QR-Code",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "Table QR-Code"
+    },
+    {
+      "menuHeader": "Settings"
+    },
+    {
+      "url": "app/email",
+      "name": "Working Time",
+      "icon": "menu-icon tf-icons bx bx-carousel",
+      "slug": "Working Time"
+    },
+    {
+      "url": "form/validation",
+      "icon": "menu-icon tf-icons bx bx-list-check",
+      "name": "QR-Code",
+      "slug": "QR-Code"
+    },
+    {
+      "url": "tables/basic",
+      "icon": "menu-icon tf-icons bx bx-table",
+      "name": "Shop-Details ",
+      "slug": "Shop-Details "
+    }
+  ]
+}
