@@ -409,6 +409,9 @@
             background-color: #f2f2f2;
           }
 
+          .foodCategories .accordion-body .foodExtras label{
+            background-color: #fff;
+          }
 
           @media (min-width: 992px){
             .modal-lg, .modal-xl {
@@ -1152,7 +1155,7 @@
                                         </button>
                                       </h2>
                                       <span class="quantity">Total Items 10</span>
-                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="padding-top: 10px">
                                         <div class="accordion-body">
                                           <label for="">101. Pizza Margherita</label>
                                           <input type="checkbox" style="float: right" name="" id="">
@@ -1174,6 +1177,7 @@
 
                                             </div>
                                           </div>
+                                          <hr>
                                         </div>
 
                                         <div class="accordion-body">
@@ -1191,6 +1195,102 @@
 
                                       </div>
                                     </div>
+
+
+                                    <div class="accordion-item mt-2">
+                                      <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                          Burger <span class="btn-checkbox"><input type="checkbox" name="" id=""><label for="">Select Category</label></span>
+                                        </button>
+                                      </h2>
+                                      <span class="quantity">Total Items 10</span>
+                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="padding-top: 10px">
+                                        <div class="accordion-body">
+                                          <label for="">101. Pizza Margherita</label>
+                                          <input type="checkbox" style="float: right" name="" id="">
+                                          <div class="foodExtras">
+                                            <div class="radio-collection">
+                                              <span>
+                                              <input type='radio' name='fulfillment-3' value='delivery' id='Standard' checked>
+                                            <label for='Standard' class="">Standard</label>
+                                              </span>
+
+                                              <span>
+                                            <input type='radio' name='fulfillment-3' value='pickup' id='Size-M'>
+                                            <label for='Size-M'>Size M</label>
+                                              </span>
+                                            <span>
+                                            <input type='radio' name='fulfillment-3' value='pickup' id='Size-L'>
+                                            <label for='Size-L'>Size L</label>
+                                            </span>
+
+                                            </div>
+                                          </div>
+                                          <hr>
+                                        </div>
+
+                                        <div class="accordion-body">
+                                          <label for="">102. Pizza Calzone</label>
+                                          <input type="checkbox" style="float: right" name="" id="">
+                                          <div class="foodExtras">
+                                            <div class="radio-collection">
+                                              <span>
+                                              <input type='radio' name='fulfillment-4' value='delivery' id='Standard' >
+                                            <label for='Standard' style="width:100px">Standard</label>
+                                              </span>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="accordion-item mt-2">
+                                      <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                          Burger <span class="btn-checkbox"><input type="checkbox" name="" id=""><label for="">Select Category</label></span>
+                                        </button>
+                                      </h2>
+                                      <span class="quantity">Total Items 10</span>
+                                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="padding-top: 10px">
+                                        <div class="accordion-body">
+                                          <label for="">101. Pizza Margherita</label>
+                                          <input type="checkbox" style="float: right" name="" id="">
+                                          <div class="foodExtras">
+                                            <div class="radio-collection">
+                                              <span>
+                                              <input type='radio' name='fulfillment-3' value='delivery' id='Standard' checked>
+                                            <label for='Standard' class="">Standard</label>
+                                              </span>
+
+                                              <span>
+                                            <input type='radio' name='fulfillment-3' value='pickup' id='Size-M'>
+                                            <label for='Size-M'>Size M</label>
+                                              </span>
+                                            <span>
+                                            <input type='radio' name='fulfillment-3' value='pickup' id='Size-L'>
+                                            <label for='Size-L'>Size L</label>
+                                            </span>
+
+                                            </div>
+                                          </div>
+                                          <hr>
+                                        </div>
+
+                                        <div class="accordion-body">
+                                          <label for="">102. Pizza Calzone</label>
+                                          <input type="checkbox" style="float: right" name="" id="">
+                                          <div class="foodExtras">
+                                            <div class="radio-collection">
+                                              <span>
+                                              <input type='radio' name='fulfillment-4' value='delivery' id='Standard' >
+                                            <label for='Standard' style="width:100px">Standard</label>
+                                              </span>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
                                   </div>
                                 </div>
                                 <div class="col-md-6">
