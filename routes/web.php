@@ -32,6 +32,7 @@ use App\Http\Controllers\delivery\Settings_delivery_area;
 use App\Http\Controllers\delivery\Settings_working_time;
 use App\Http\Controllers\delivery\Settings_qrcode;
 use App\Http\Controllers\delivery\Settings_shop_detail;
+use App\Http\Controllers\delivery\Settings_order_setup;
 // Resturant Controller
 use App\Http\Controllers\resturant\RES_pos_system;
 use App\Http\Controllers\resturant\RES_pos_setting;
@@ -101,6 +102,7 @@ Route::get( '/delivery/settings/delivery_area', [ Settings_delivery_area::class,
 Route::get( '/delivery/settings/working_time', [ Settings_working_time::class, 'index' ] )->name( 'delivery-Settings_working_time' );
 Route::get( '/delivery/settings/qr_code', [ Settings_qrcode::class, 'index' ] )->name( 'delivery-Settings_qrcode' );
 Route::get( '/delivery/settings/shop_details', [ Settings_shop_detail::class, 'index' ] )->name( 'delivery-Settings_shop_detail' );
+Route::get( '/delivery/settings/order_setup', [ Settings_order_setup::class, 'index' ] )->name( 'delivery-Settings_order_setup' );
 
 //resturant
 Route::get( '/resturant/pos-system/system', [ RES_pos_system::class, 'index' ] )->name( 'resturant-pos-system-system' );

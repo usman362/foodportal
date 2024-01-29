@@ -199,8 +199,9 @@
     },
     {
       "icon": "menu-icon tf-icons bx bx-table",
-      "name": "Shop-Details",
-      "slug": "delivery-Settings_shop_detail"
+      "name": "Order-Setup",
+      "slug": "delivery-Settings_order_setup",
+      "url": "delivery/settings/order_setup"
     }
   ],
   "submenu": [
